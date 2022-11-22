@@ -1,0 +1,66 @@
+body{
+    background: #EEEEEE;
+}
+
+
+
+.card {
+    border-radius: 10px;
+}
+
+
+#buscar{
+    background-color: #455a64;
+}
+
+
+#buscar:hover{
+    background-color: #ff7043 ;
+}
+
+
+
+.flotar{
+    margin-left: 8px ;
+   bottom: 15px;
+    left: 15px;
+   background-color: #3f51b5 ;
+}
+
+.flotar:hover{
+  background: #ffa726;
+}
+
+
+.nombres{
+    width: 500px;
+}
+
+#more{
+    width: 100%;
+}
+
+.collapsible-header{
+    border-radius: 12px;
+}
+
+.collapsible-body{
+    border-radius: 12px;
+}
+
+.collapsible{
+    border-radius: 12px
+}
+
+#fecha{
+    color: #fb8c00;
+}
+
+
+.margen{
+    margin-left: 30px
+}
+
+
+
+

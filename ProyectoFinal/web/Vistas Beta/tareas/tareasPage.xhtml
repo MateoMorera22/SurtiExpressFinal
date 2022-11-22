@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <f:view>
+
+
+            <h:form>
+                <h1><h:outputText value="Create/Edit"/></h1>
+                <h:panelGrid columns="2">
+                    <h:outputLabel value="Tarea:" for="tarea" />
+                    <h:inputText id="tarea" value="#{tareaControlador.tarea.tarea}" title="Tarea" />
+                    
+                    <h:outputLabel value="IdPlanilla:" for="idPlanilla" />
+                    <h:selectOneMenu id="idPlanilla" value="#{tareaControlador.planilla.idPlanilla}" title="IdPlanilla" >
+                        <!-- TODO: update below reference to list of available items-->
+                        <f:selectItems value="#{planillaControlador.listarPlanillas()}" var="plan" itemValue="#{plan.idPlanilla}" itemLabel="#{plan.idPlanilla}"/>
+                    </h:selectOneMenu>
+
+                    <h:outputLabel value="IdEstadoTarea:" for="idEstadoTarea" />
+                    <h:selectOneMenu id="idEstadoTarea" value="#{tareaControlador.estadotarea.idEstadoTarea}" title="IdEstadoTarea" >
+                        <!-- TODO: update below reference to list of available items-->
+                        <f:selectItems value="#{estadotareaControlador.listarEstadoTarea()}" var="esttar" itemLabel="#{esttar.estadoTarea}" itemValue="#{esttar.idEstadoTarea}"/>
+                    </h:selectOneMenu>
+                    
+                    <h:outputLabel value="IdUsuario:" for="idUsuario" />
+                    <h:selectOneMenu id="idUsuario" value="#{tareaControlador.usuario.idUsuario}" title="IdUsuario" >
+                        <!-- TODO: update below reference to list of available items-->
+                        <f:selectItems value="#{usuarioControlador.listarEmpleadosBodeguista()}" var="usu" itemLabel="#{usu.nombre}" itemValue="#{usu.idUsuario}"/>
+                    </h:selectOneMenu>
+                </h:panelGrid>
+                
+                <h:commandButton action="#{tareaControlador.crearTarea()}" value="crar" />
+            </h:form>
+        </f:view>
+        <f:view>
+
+
+            <h:form>
+                <h1><h:outputText value="List"/></h1>
+                <h:dataTable value="#{tareaControlador.listarTareas()}" var="item">
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="IdTarea"/>
+                        </f:facet>
+                        <h:outputText value="#{item.idTarea}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="Tarea"/>
+                        </f:facet>
+                        <h:outputText value="#{item.tarea}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="IdPlanilla"/>
+                        </f:facet>
+                        <h:outputText value="#{item.idPlanilla}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="IdEstadoTarea"/>
+                        </f:facet>
+                        <h:outputText value="#{item.idEstadoTarea}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">
+                            <h:outputText value="IdUsuario"/>
+                        </f:facet>
+                        <h:outputText value="#{item.idUsuario}"/>
+                    </h:column>
+                    <h:column>
+                        <h:commandButton action="#{tareaControlador.eliminarTarea(item)}" value="Eliminar"></h:commandButton>
+                        <h:commandButton action="#{tareaControlador.preEditarTarea(item)}" value="Editar"></h:commandButton>
+                    </h:column>
+                    <h:column>
+                        
+                    <h:selectOneMenu id="idEsTarea" value="#{tareaControlador.estadotarea.idEstadoTarea}">
+                        
+                        <f:selectItems value="#{estadotareaControlador.listarEstadoTarea()}" var="estp" itemLabel="#{estp.estadoTarea}" itemValue="2" />
+                        </h:selectOneMenu>
+                    <h:commandButton action="#{tareaControlador.cambiarEstado(item)}" value="cambiar estado" />
+                    </h:column>
+                </h:dataTable>
+            </h:form>
+        </f:view>
+
+
+    </h:body>
+</html>
+
