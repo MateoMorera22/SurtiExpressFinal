@@ -1,7 +1,7 @@
 # SurtiExpress
 **DISEÑO Y DESARROLLO DE UNA APLICACIÓN WEB PARA LA VINCULACIÓN LABORAL**
 
-<img src="https://imgur.com/PZgOgUQ" width="100%">
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52517823429/in/dateposted-public/" title="Surti Express logo (2.0)"><img src="https://live.staticflickr.com/65535/52517823429_e8cef762e5_k.jpg" width="100%" height="1080" alt="Surti Express logo (2.0)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
   
 Jose Mateo Morera Orjuela \
 Universidad EAN \
