@@ -1,4 +1,4 @@
-# LABORAPP
+# SurtiExpress
 **DISEÑO Y DESARROLLO DE UNA APLICACIÓN WEB PARA LA VINCULACIÓN LABORAL**
 
 <img src="https://imgur.com/PZgOgUQ" width="100%">
@@ -60,69 +60,78 @@ Se evidenciaron falencias en el control de algunos de los procesos que se llevan
 | Número de requerimiento | RF006 |
 | --- | --- |
 | Nombre de requerimiento | Cancelar pedido |
-| Tipo | Requisito                                  |
+| Tipo | Requisito|
 | Fuente del requerimiento | Cliente |
 | Proceso | El sistema permitirá la cancelación de pedidos, siempre y cuando cumpla con el tiempo límite (12 horas). | Esencial |
 
 | Número de requerimiento | RF007 |
 | --- | --- |
 | Nombre de requerimiento | Ver orden de compra|
-| Tipo | Requisito                                  |
+| Tipo | Requisito |
 | Fuente del requerimiento | Transportador |
 | Proceso | El sistema permitirá ver las órdenes de compra de los pedidos |
 | Prioridad del requerimiento | Esencial |
 
 | Número de requerimiento | RF008 |
+| --- | --- |
 | Nombre de requerimiento | Visualizar pedido |
-| Tipo | Requisito                                 |
+| Tipo | Requisito |
 | Fuente del requerimiento | Cliente |
 | Proceso | El sistema permitirá la visualización previa del pedido y productos registrados en este. | Esencial |
 
 | Número de requerimiento | RF009 |
+| --- | --- |
 | Nombre de requerimiento | Descargar orden de compra |
-| Tipo | Requisito                                 |
+| Tipo | Requisito  |
 | Fuente del requerimiento | Transportador |
 | Proceso | El sistema permitirá la visualización previa del pedido y productos registrados en este. | Esencial |
 
 | Número de requerimiento | RF010 |
+| --- | --- |
 | Nombre de requerimiento | Consultar registro de pedidos |
 | Tipo | Requisito                                 |
 | Fuente del requerimiento | Administrador |
 | Proceso | El sistema permitirá la consulta de todos los pedidos realizados. | Esencial |
 
 | Número de requerimiento | RF011 |
+| --- | --- |
 | Nombre de requerimiento | Visualizar estadísticas de pedidos |
-| Tipo | Requisito                                 |
+| Tipo | Requisito |
 | Fuente del requerimiento | Administrador |
 | Proceso | El sistema permitirá visualizar las estadísticas de los pedidos más vendidos.  | Esencial |
 
 | Número de requerimiento | RF012 |
+| --- | --- |
 | Nombre de requerimiento | Ver inventario |
-| Tipo | Requisito                                 |
+| Tipo | Requisito |
 | Fuente del requerimiento | Administrador |
 | Proceso |El sistema permitirá observar el inventario y productos disponibles en este.| Esencial |
 
 | Número de requerimiento | RF013 |
+| --- | --- |
 | Nombre de requerimiento | Registrar producto |
-| Tipo | Requisito                                 |
+| Tipo | Requisito |
 | Fuente del requerimiento | Administrador |
 | Proceso |El sistema permitirá el registro de un nuevo producto a la empresa. | Esencial |
 
 | Número de requerimiento | RF014 |
+| --- | --- |
 | Nombre de requerimiento | Editar producto |
-| Tipo | Requisito                                 |
+| Tipo | Requisito |
 | Fuente del requerimiento | Administrador |
 | Proceso |El sistema permitirá la edición en la información del producto. | Esencial |
 
 | Número de requerimiento | RF015 |
+| --- | --- |
 | Nombre de requerimiento | Eliminar producto |
-| Tipo | Requisito                                 |
+| Tipo | Requisito |
 | Fuente del requerimiento | Administrador |
 | Proceso |El sistema permitirá la eliminación de productos que la empresa deje de vender la empresa. | Moderado |
 
 | Número de requerimiento | RF016 |
+| --- | --- |
 | Nombre de requerimiento | Ver lista de transportadores |
-| Tipo | Requisito                                 |
+| Tipo | Requisito |
 | Fuente del requerimiento | Administrador |
 | Proceso |El sistema permitirá ver qué transportadores están disponibles y cuáles tienen ruta asignada. | Escencial |
 
