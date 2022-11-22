@@ -180,7 +180,7 @@ Es un lenguaje de programación ampliamente utilizado para codificar aplicacione
 
 JavaServer Faces (JSF) es una tecnología y framework para aplicaciones Java basadas en web que simplifica el desarrollo de interfaces de usuario en aplicaciones Java EE. JSF usa JavaServer Pages (JSP) como la tecnología que permite hacer el despliegue de las páginas, pero también se puede acomodar a otras tecnologías como XUL (acrónimo de XML-based User-interface Language, lenguaje basado en XML para la interfaz de usuario)
 
- <img src="https://faces.liferay.dev/jsf-showcase?p_p_id=1_WAR_comliferayfacesdemojsfshowcaseportlet&p_p_lifecycle=2&p_p_state=normal&p_p_mode=view&p_p_cacheability=cacheLevelPage&p_p_col_id=column-1&p_p_col_count=1&_1_WAR_comliferayfacesdemojsfshowcaseportlet_javax.faces.resource=jsf-logo.png&_1_WAR_comliferayfacesdemojsfshowcaseportlet_ln=images" width="300">
+ <a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52518038875/in/dateposted-public/" title="Jakarta_Server_Faces_logo.tiff (1)"><img src="https://live.staticflickr.com/65535/52518038875_f79aaf234a_b.jpg" width="300"  alt="Jakarta_Server_Faces_logo.tiff (1)"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
  
   3. **Enterprise JavaBeans**
 
@@ -223,8 +223,7 @@ A continuación, se muestra el modelo entidad-relación planteado:
 
 Modelo entidad-relación
 
-
-![Imagen 1](https://imgur.com/3Wchp29)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52518114458/in/dateposted-public/" title="image1"><img src="https://live.staticflickr.com/65535/52518114458_0053689aeb_b.jpg" width="1024" height="827" alt="image1"></a><script async src="//embedr.flickr.com/assets/client-code.js" charset="utf-8"></script>
 
 
 ### METODOLOGÍA
@@ -235,16 +234,12 @@ La elección de esta metodología se hizo teniendo en cuenta la fecha de entrega
 
 ### UI
 
-![Captura de Pantalla 2022-11-18](https://imgur.com/gpX81M4)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52518094753/in/dateposted-public/" title="1"><img src="https://live.staticflickr.com/65535/52518094753_1f8b266ef9_b.jpg" width="1024" height="508" alt="1"></a>
 
-![Captura de Pantalla 2022-11-18](https://imgur.com/dSKjgt1)
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52518094778/in/dateposted-public/" title="2"><img src="https://live.staticflickr.com/65535/52518094778_e28d61d343_b.jpg" width="1024" height="507" alt="2"></a>
 
-![Captura de Pantalla 2022-11-18](https://imgur.com/ncNEbY8)
-
-![Captura de Pantalla 2022-11-18](https://imgur.com/Dz9ddHD)
-
-![Captura de Pantalla 2022-11-18](https://imgur.com/qaNUlgh)
-
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52517070027/in/dateposted-public/" title="3"><img src="https://live.staticflickr.com/65535/52517070027_6f5eb9207f_b.jpg" width="1024" height="508" alt="3"></a>
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52517818954/in/dateposted-public/" title="4"><img src="https://live.staticflickr.com/65535/52517818954_342d27e013_b.jpg" width="1024" height="506" alt="4"></a>
 
 ### RESULTADOS
 Se logró el desarrollo de la aplicación web para la búsqueda de empleo cumpliendo los requerimientos funcionales y no funcionales propuestos.
@@ -253,14 +248,20 @@ Se logró el desarrollo de la aplicación web para la búsqueda de empleo cumpli
 
 Resultados de ejecucion en los requisitos fucionales mas importantes.
 
-![imagen](https://imgur.com/4heiunv)
-![imagen](https://imgur.com/uEY5Ap4)
-![imagen](https://imgur.com/GKKUJo4)
-![imagen](https://imgur.com/eh9gLpg)
-![imagen](https://imgur.com/3B2nslv)
-![imagen](https://imgur.com/D0jkZ5t)
-![imagen](https://imgur.com/iSQzchu)
-![imagen](https://imgur.com/Si8eW0o)
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52517545996/in/dateposted-public/" title="rf2"><img src="https://live.staticflickr.com/65535/52517545996_51079762f6_b.jpg" width="1024" height="506" alt="rf2"></a>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52517818989/in/dateposted-public/" title="rf2.3"><img src="https://live.staticflickr.com/65535/52517818989_652a160edd_b.jpg" width="1024" height="508" alt="rf2.3"></a>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52518094863/in/dateposted-public/" title="rf2.4"><img src="https://live.staticflickr.com/65535/52518094863_739d10d8fe_b.jpg" width="1024" height="508" alt="rf2.4"></a>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52517546046/in/dateposted-public/" title="guargar prod"><img src="https://live.staticflickr.com/65535/52517546046_4fd76f68f9_b.jpg" width="1024" height="508" alt="guargar prod"></a>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52518023955/in/dateposted-public/" title="invent"><img src="https://live.staticflickr.com/65535/52518023955_9ef33ee863_b.jpg" width="1024" height="506" alt="invent"></a>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52517580811/in/dateposted-public/" title="trans"><img src="https://live.staticflickr.com/65535/52517580811_5b15a756bb_b.jpg" width="1024" height="507" alt="trans"></a>
+
+<a data-flickr-embed="true" href="https://www.flickr.com/photos/152655388@N06/52517106587/in/dateposted-public/" title="tareas"><img src="https://live.staticflickr.com/65535/52517106587_50e65afe60_b.jpg" width="1024" height="506" alt="tareas"></a>
 
  
 ### CONCLUSIONES
